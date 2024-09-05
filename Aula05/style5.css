@@ -1,0 +1,52 @@
+/*Formatação por elemento*/
+h1, h2, h3
+{
+    font-family: Comic Sans MS;
+}
+
+/*Formatação por identificador*/
+/* # → simbolo usado para id*/
+#textoExemplo /*Seletor*/
+{/*Bloco*/
+    color: #ffa200; /*Propriedade: valor; →separador*/
+    font-size: 1.2em;
+}
+
+#destaque
+{
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+/*Formatação com classes*/
+.italicolinha
+{
+    font-style: italic;
+    border-bottom: solid ;
+}
+
+#idUm
+{
+    background: blue;
+    color: white;
+}
+
+#idDois
+{
+    background: darkorchid;
+    color: bisque;
+    font-size: 1.5em;
+}
+
+#idTres
+{
+    background: grey;
+    font-weight: bold;
+    text-align: center;
+}
+
+#idQuatro
+{
+    background: darkcyan;
+}
