@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana;
+}
+
+h1{
+    font-family: 'Times New Roman';
+}
+
+img {
+    width: 30%;
+    border-radius: 5%;
+}
+
+/*
+Expressões Regulares
+Exatamente igual    → =
+Inicia com          → ^=
+Termina com         → $=
+Contém              → *=
+*/
+
+img[src="/img/athena.webp"]{
+    border-radius: 50%;
+}
+
+img:hover[src^="/img/a"]{
+    filter: grayscale(100%);
+}
